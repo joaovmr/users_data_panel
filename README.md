@@ -1,6 +1,6 @@
 # Random Users Data Admin Panel
 
-## Requisitos
+## Descrição
 
 Esse é um projeto feito em PHP com Vue para exercitar as boas práticas em PHP e treinar as habilidades em Vue. O prjeto consome os dados da API pública https://random-data-api.com/
 
@@ -12,8 +12,6 @@ Esse é um projeto feito em PHP com Vue para exercitar as boas práticas em PHP 
 ## Instalação
 
 Clone o repositório:
-
-```bash
 git clone https://github.com/joaovmr/users_data_panel.git
 
 Acesse o diretório do projeto:
