@@ -2,6 +2,10 @@
 
 ## Requisitos
 
+Esse é um projeto feito em PHP com Vue para exercitar as boas práticas em PHP e treinar as habilidades em Vue. O prjeto consome os dados da API pública https://random-data-api.com/
+
+## Requisitos
+
 - Node.js >= v20
 - PHP >= 8.1
 
@@ -27,3 +31,6 @@ npm run dev
 
 Acesse o aplicativo no navegador:
 http://localhost:8000
+
+## Decisões de projeto
+O projeto não foi dockerizado devido ao servidor de Vue estar diretamente interno aos resources do PHP, o que gera uma construção complexa sem necessidade no arquivo docker. Essa decisao foi tomada devido ao fato de a chamada da API ja ser feita direto no PHP, o que tornaria sem sentido fazer um front end que consumisse o conteudo do retorno via outra chamada de API. Futuramente o ideal se torna adicionar um servidor de Vue externo, criando assim dois serviços no container Docker para facilitar a construção do Dockerfile.
