@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esse é um projeto feito em PHP com Vue para exercitar as boas práticas em PHP e treinar as habilidades em Vue. O prjeto consome os dados da API pública https://random-data-api.com/
+Esse é um projeto feito em PHP com Vue para exercitar as boas práticas em PHP e treinar as habilidades em Vue. O projeto consome os dados da API pública https://random-data-api.com/. A aplicação conta com uma tabela de dados em Vue feita manualmente sem uso de bibliotecas a fim de melhorar as habilidades na tecnologia.
 
 ## Requisitos
 
